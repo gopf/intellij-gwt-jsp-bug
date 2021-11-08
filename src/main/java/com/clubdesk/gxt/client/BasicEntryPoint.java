@@ -10,7 +10,7 @@ import com.google.gwt.user.client.ui.RootPanel;
 public class BasicEntryPoint implements EntryPoint {
   @Override
   public void onModuleLoad() {
-    Button b = new Button("Jump!", new ClickHandler() {
+    Button b = new Button("Open JSP page...", new ClickHandler() {
       public void onClick(ClickEvent event) {
         Window.open("test.jsp", "Test", null);
       }

@@ -2,9 +2,10 @@
 This project shows the problem with the IntelliJ GWT plugin and JSP files.
 
  * load the project
+ * check that GWT Facet Target Web Facet is set
  * run the 'Test Super Dev' run configuration
  * initially there are no class files generated
- * press 'Jump!'
+ * press 'Open JSP page...'
     * JSP page is loaded
     * console shows that the JSP compilation is compiling the sources and writing them to the src folder
     * a project refresh shows the class files in the project source folder 

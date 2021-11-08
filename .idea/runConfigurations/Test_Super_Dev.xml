@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Test Super Dev" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+    <option name="VM_PARAMETERS" value="-Xmx512m -Dbuild.compiler=com.clubdesk.JDTCompiler" />
+    <option name="RUN_PAGE" value="basic.html" />
+    <option name="USE_SUPER_DEV_MODE" value="true" />
+    <option name="WORKING_DIRECTORY" value="" />
+    <module name="intellij-gwt-jsp-bug.main" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
