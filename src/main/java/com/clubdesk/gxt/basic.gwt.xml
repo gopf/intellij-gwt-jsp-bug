@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD GWT 2.7.0//EN"
+    "http://gwtproject.org/doctype/2.7.0/gwt-module.dtd">
+<module rename-to='basic'>
+  <!-- Inherit the core Web Toolkit stuff. -->
+  <inherits name='com.google.gwt.user.User' />
+
+  <!-- GXT Normalizing Stylesheet -->
+  <stylesheet src="reset.css" />
+
+  <!-- Specify the app entry point class. -->
+  <entry-point class='com.clubdesk.gxt.client.BasicEntryPoint' />
+
+  <!-- Specify the paths for translatable code -->
+  <source path='client' />
+  <source path='shared' />
+
+  <extend-property name="locale" values="de"/>
+  <extend-property name="locale" values="de_DE"/>
+  <extend-property name="locale" values="de_CH"/>
+  <extend-property name="locale" values="fr"/>
+  <extend-property name="locale" values="fr_CH"/>
+  <extend-property name="locale" values="it"/>
+  <extend-property name="locale" values="it_CH"/>
+
+  <!-- Shrink the amount of permutations compiled -->
+  <!-- <collapse-property name="gxt.theme" values="blue, gray" /> -->
+  <collapse-property name="user.agent" values="safari*, gecko*" />
+  <collapse-property name="user.agent" values="ie*" />
+  
+</module>
